@@ -1,0 +1,19 @@
+package com.company;
+
+import java.util.ArrayList;
+
+public class Main {
+
+    public static void main(String[] args) {
+        ArrayList<Integer> number = new ArrayList<>();
+        number.add(108);
+        number.add(154);
+        Player player = new Player("Nimesh", 22, "keeper", number);
+        System.out.println(player.toString());
+        System.out.println(player.bestPerformance());
+        System.out.println(player.getType());
+
+
+
+    }
+}
